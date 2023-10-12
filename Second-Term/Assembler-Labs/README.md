@@ -1,10 +1,7 @@
-# C-plus-plus-Labs
-My C++ labs from the first semester of study at BSU: <br>
-Compute with precision: [lab-1](https://github.com/NiCHUY/BSU-Projects/tree/main/First-Term/C%2B%2B/Lab-1)<br>
-Arrays: [lab-2](https://github.com/NiCHUY/BSU-Projects/tree/main/First-Term/C%2B%2B/Lab-2)<br>
-Matrix: [lab-3](https://github.com/NiCHUY/BSU-Projects/tree/main/First-Term/C%2B%2B/Lab-3)<br>
-Strings and text files: [lab-4](https://github.com/NiCHUY/BSU-Projects/tree/main/First-Term/C%2B%2B/Lab-4)<br>
-Text files: [lab-5](https://github.com/NiCHUY/BSU-Projects/tree/main/First-Term/C%2B%2B/Lab-5)<br>
-Simplest class: [lab-6](https://github.com/NiCHUY/BSU-Projects/tree/main/First-Term/C%2B%2B/Lab-6)<br>
-Inheritance: [lab-7](https://github.com/NiCHUY/BSU-Projects/tree/main/First-Term/C%2B%2B/Lab-7)<br>
-Calculator: [lab-8](https://github.com/NiCHUY/BSU-Projects/tree/main/First-Term/C%2B%2B/Lab-8)<br>
+# Assembler-Labs
+My Assembler labs from the second semester of study at BSU: <br>
+Lab-1: [lab-1](https://github.com/NiCHUY/BSU-Projects/tree/main/Second-Term/Assembler-Labs/Assembler-Lab-1)<br>
+Lab-2: [lab-2](https://github.com/NiCHUY/BSU-Projects/tree/main/Second-Term/Assembler-Labs/Assembler-Lab-2)<br>
+Lab-3: [lab-3](https://github.com/NiCHUY/BSU-Projects/tree/main/Second-Term/Assembler-Labs/Assembler-Lab-3)<br>
+Lab-4: [lab-4](https://github.com/NiCHUY/BSU-Projects/tree/main/Second-Term/Assembler-Labs/Assembler-Lab-4)<br>
+Examination: [examination](https://github.com/NiCHUY/BSU-Projects/tree/main/Second-Term/Assembler-Labs/Kr_Assembler)<br>

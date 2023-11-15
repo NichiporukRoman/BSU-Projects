@@ -1,4 +1,4 @@
-# ColorConverter
+# <h1 align="center">ColorConverter</h1>
 ## Code
   [ColorConvertApp.java](https://github.com/NiCHUY/BSU-Projects/blob/main/Fifth-Term/Computer-Graphics/ColorConverter/Code/src/ColorConvertApp.java)<br>
     Сonstructor: [here](https://github.com/NiCHUY/BSU-Projects/blob/main/Fifth-Term/Computer-Graphics/ColorConverter/Code/src/ColorConvertApp.java#L35)<br>

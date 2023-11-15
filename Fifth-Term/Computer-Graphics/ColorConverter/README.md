@@ -1,5 +1,5 @@
 # ColorConverter
-Code:<br>
+## Code:<br>
   [ColorConvertApp.java](https://github.com/NiCHUY/BSU-Projects/blob/main/Fifth-Term/Computer-Graphics/ColorConverter/Code/src/ColorConvertApp.java)<br>
     Сonstructor: [here](https://github.com/NiCHUY/BSU-Projects/blob/main/Fifth-Term/Computer-Graphics/ColorConverter/Code/src/ColorConvertApp.java#L35)<br>
     SliderMouseListenerRGB: [here](https://github.com/NiCHUY/BSU-Projects/blob/main/Fifth-Term/Computer-Graphics/ColorConverter/Code/src/ColorConvertApp.java#L227)<br>
@@ -23,7 +23,7 @@ Code:<br>
     Conversion HSL to RGB: [here](https://github.com/NiCHUY/BSU-Projects/blob/main/Fifth-Term/Computer-Graphics/ColorConverter/Code/src/%D0%A1onversionOperations.java#L56)<br>
     Conversion HSL to CMYK: [here](https://github.com/NiCHUY/BSU-Projects/blob/main/Fifth-Term/Computer-Graphics/ColorConverter/Code/src/%D0%A1onversionOperations.java#L98)<br>
     Conversion Hue to RGB: [here](https://github.com/NiCHUY/BSU-Projects/blob/main/Fifth-Term/Computer-Graphics/ColorConverter/Code/src/%D0%A1onversionOperations.java#L80)<br>
-Documents:<br>
+## Documents:<br>
   Report: [here](https://github.com/NiCHUY/BSU-Projects/blob/main/Fifth-Term/Computer-Graphics/ColorConverter/Documents/Report%20ColorConverter.pdf)
 
 

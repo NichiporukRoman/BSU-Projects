@@ -1,0 +1,3 @@
+C:/Users/roman/CLionProjects/Kr_Assembler/cmake-build-debug/CMakeFiles/Kr_Assembler.dir
+C:/Users/roman/CLionProjects/Kr_Assembler/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/roman/CLionProjects/Kr_Assembler/cmake-build-debug/CMakeFiles/rebuild_cache.dir

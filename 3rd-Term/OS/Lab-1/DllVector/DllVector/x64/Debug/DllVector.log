@@ -1,0 +1,23 @@
+﻿  Vector.cpp
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.h(29,10): warning C4251: vector::Vector::x_: class "Number::Number" должен иметь dll-интерфейс для использования клиентами class "vector::Vector"
+C:\Users\roman\source\repos\Number\Number\Number.h(9): message : см. объявление "Number::Number"
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.h(30,10): warning C4251: vector::Vector::y_: class "Number::Number" должен иметь dll-интерфейс для использования клиентами class "vector::Vector"
+C:\Users\roman\source\repos\Number\Number\Number.h(9): message : см. объявление "Number::Number"
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.cpp(11,40): warning C4273: vector::Vector::Vector: несовместимое связывание dll
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.h(19,3): message : см. предыдущее определение "{ctor}"
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.cpp(13,30): warning C4273: vector::Vector::GetAngle: несовместимое связывание dll
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.h(23,10): message : см. предыдущее определение "GetAngle"
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.cpp(18,31): warning C4273: vector::Vector::GetRadius: несовместимое связывание dll
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.h(24,10): message : см. предыдущее определение "GetRadius"
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.cpp(22,34): warning C4273: vector::Vector::GetX: несовместимое связывание dll
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.h(25,10): message : см. предыдущее определение "GetX"
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.cpp(26,34): warning C4273: vector::Vector::GetY: несовместимое связывание dll
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.h(26,10): message : см. предыдущее определение "GetY"
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.cpp(29,50): warning C4273: vector::Vector::operator +: несовместимое связывание dll
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.h(27,10): message : см. предыдущее определение "+"
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.cpp(33,30): warning C4273: vector::ZERO_ZERO: несовместимое связывание dll
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.h(34,44): message : см. предыдущее определение "ZERO_ZERO"
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.cpp(34,28): warning C4273: vector::ONE_ONE: несовместимое связывание dll
+C:\Users\roman\source\repos\DllVector\DllVector\Vector.h(33,44): message : см. предыдущее определение "ONE_ONE"
+     Создается библиотека C:\Users\roman\source\repos\DllVector\x64\Debug\DllVector.lib и объект C:\Users\roman\source\repos\DllVector\x64\Debug\DllVector.exp
+  DllVector.vcxproj -> C:\Users\roman\source\repos\DllVector\x64\Debug\DllVector.dll

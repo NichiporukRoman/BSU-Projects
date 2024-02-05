@@ -1,0 +1,5 @@
+/home/roman/CLionProjects/Test/cmake-build-debug/CMakeFiles/Test.dir
+/home/roman/CLionProjects/Test/cmake-build-debug/CMakeFiles/NumLib.dir
+/home/roman/CLionProjects/Test/cmake-build-debug/CMakeFiles/Dll.dir
+/home/roman/CLionProjects/Test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/roman/CLionProjects/Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir

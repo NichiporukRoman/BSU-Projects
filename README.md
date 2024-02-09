@@ -16,3 +16,5 @@ Computer Architecture:
 
 Server/Client Web-Application:  [see-here](https://github.com/NiCHUY/WG)
 ## Fifth-term
+## Sixth-term
+Neural-Net: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/6th-Term/Neural-Net)

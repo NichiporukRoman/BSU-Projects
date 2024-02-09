@@ -1,14 +1,18 @@
-# BSU-Projects <br>
-First-term: <br>
-  C++ Base: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/First-Term/C%2B%2B) <br> <br>
-Second-term: <br>
-  Qt Base project: [see-here](https://github.com/NiCHUY/Flappy-Meat) <br> 
-  Assembler Base: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/Second-Term/Assembler-Labs) <br> <br>
-Third-term: <br>
-  Java Base: <br>
-  OS: <br> <br>
-Fouth-term: <br>
-Sql/DataBasses: <br>
-Computer Architecture: <br>  
-Server/Client Web-Application:  [see-here](https://github.com/NiCHUY/WG) <br> <br>
-Fifth-term: <br>
+# BSU-Projects
+## First-term
+C++ Base: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/First-Term/C%2B%2B)
+## Second-term
+Qt Base project: [see-here](https://github.com/NiCHUY/Flappy-Meat)
+
+Assembler Base: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/Second-Term/Assembler-Labs)
+## Third-term
+Java Base:
+
+OS: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/3rd-Term/OS)
+## Fouth-term
+Sql/DataBasses:
+
+Computer Architecture: 
+
+Server/Client Web-Application:  [see-here](https://github.com/NiCHUY/WG)
+## Fifth-term

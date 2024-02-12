@@ -15,5 +15,5 @@ O1output = sig(O1input)
 O1ideal = (logical_xor(I[0], I[1]))
 MSE = (pow(O1ideal - O1output, 2)) / 1
 
-print('RESULT: ' + str(round(O1output, 2)))
-print('MSE: ' + str(round(MSE, 2)))
+print('RESULT:', str(round(O1output, 2)))
+print('MSE:', str(round(MSE, 2)))

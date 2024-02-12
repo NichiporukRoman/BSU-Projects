@@ -18,7 +18,7 @@ def round_ru(x):
     return round(x)
 
 
-print(get_last_digit(1213136))
-print(get_fractional_part(12.312321312))
-print(get_first_decimal_digit(12.312321312))
-print(round_ru(12.512321312))
+print('Last Digit:', get_last_digit(1213136))
+print('Fractional Part:', get_fractional_part(12.312321312))
+print('First Decimal Digit:', get_first_decimal_digit(12.312321312))
+print('Rounded:', round_ru(12.512321312))

@@ -14,7 +14,7 @@ O1output1 = sig(O1input)
 
 O1ideal1 = (logical_xor(1, 0))
 
-print("RESULT (1 0): " + str(round(O1output1, 2)))
+print("RESULT (1 0):", str(round(O1output1, 2)))
 
 # I1 = 1, I2 = 1
 
@@ -31,7 +31,7 @@ O1output2 = sig(O1input)
 
 O1ideal2 = (logical_xor(1, 1))
 
-print("RESULT (1 1): " + str(round(O1output2, 2)))
+print("RESULT (1 1):", str(round(O1output2, 2)))
 
 # I1 = 0, I2 = 0
 
@@ -48,7 +48,7 @@ O1output3 = sig(O1input)
 
 O1ideal3 = (logical_xor(0, 0))
 
-print("RESULT (0 0): " + str(round(O1output3, 2)))
+print("RESULT (0 0):", str(round(O1output3, 2)))
 
 # I1 = 0, I2 = 1
 
@@ -65,11 +65,11 @@ O1output4 = sig(O1input)
 
 O1ideal4 = (logical_xor(0, 1))
 
-print("RESULT (0 1): " + str(round(O1output4, 2)))
+print("RESULT (0 1):", str(round(O1output4, 2)))
 
 MSE = (pow(O1ideal1 - O1output1, 2) +
        pow(O1ideal2 - O1output2, 2) +
        pow(O1ideal3 - O1output3, 2) +
        pow(O1ideal4 - O1output4, 2)) / 4
 
-print("MSE: " + str(round(MSE, 2)))
+print("MSE:", str(round(MSE, 2)))

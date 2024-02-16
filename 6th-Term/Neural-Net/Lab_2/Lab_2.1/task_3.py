@@ -7,8 +7,6 @@ def get_last_digit(number):
 
 
 def get_fractional_part(x):
-    getcontext().prec = 28
-
     decimal_x = Decimal(str(x))
     fractional_part = decimal_x - Decimal(int(x))
     return fractional_part

@@ -12,10 +12,8 @@ def how_many_numbers_are_equals(a, b, c):
 
 
 def is_leap_year(year):
-    if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
-        return True
-    else:
-        return False
+    return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+
 
 
 def can_rook_move(start_col, start_row, end_col, end_row):

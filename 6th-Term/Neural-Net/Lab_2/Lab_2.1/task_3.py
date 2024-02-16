@@ -1,10 +1,16 @@
+from decimal import getcontext, Decimal
+
+
 def get_last_digit(number):
     last_digit = number % 10
     return last_digit
 
 
 def get_fractional_part(x):
-    fractional_part = x - int(x)
+    getcontext().prec = 28
+
+    decimal_x = Decimal(str(x))
+    fractional_part = decimal_x - Decimal(int(x))
     return fractional_part
 
 
@@ -15,7 +21,13 @@ def get_first_decimal_digit(x):
 
 
 def round_ru(x):
-    return round(x)
+    integer_part = int(x)
+    fractional_part = x - integer_part
+
+    if fractional_part < 0.5:
+        return integer_part
+    else:
+        return integer_part + 1
 
 
 print('Last Digit:', get_last_digit(1213136))

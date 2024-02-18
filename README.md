@@ -6,7 +6,7 @@ Qt Base project: [see-here](https://github.com/NiCHUY/Flappy-Meat)
 
 Assembler Base: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/2nd-Term/Assembler-Labs)
 ## Third-term
-Java Base:
+♨️Java Base:
 
 OS: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/3rd-Term/OS)
 ## Fouth-term

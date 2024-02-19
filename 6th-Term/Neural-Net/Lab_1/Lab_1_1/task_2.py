@@ -1,4 +1,4 @@
-from utilities import sig, logical_xor
+from Lab_1.Lab_1_1.utilities import sig, logical_xor
 # I1 = 1, I2 = 0
 
 w = [2.7, 0.78, -0.12, 0.5, 6, -1]

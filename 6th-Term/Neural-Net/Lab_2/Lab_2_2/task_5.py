@@ -5,12 +5,8 @@ def get_even_numbers_by_index(A):
     return A[::2]
 
 
-def get_elements_greater_previous(numbers):
-    result = []
-    for i in range(1, len(numbers)):
-        if numbers[i] > numbers[i - 1]:
-            result.append(numbers[i])
-    return result
+def get_elements_greater_previous(numbers_):
+    return [x for i, x in enumerate(numbers_) if x > numbers_[i-1] and i != 0]
 
 
 def swap_min_max(numbers):
@@ -20,11 +16,7 @@ def swap_min_max(numbers):
 
 
 def count_elements_greater_neighbors(numbers):
-    count = 0
-    for i in range(1, len(numbers) - 1):
-        if numbers[i] > numbers[i - 1] and numbers[i] > numbers[i + 1]:
-            count += 1
-    return count
+    return [x for i, x in enumerate(numbers) if 0 < i < len(numbers) - 1 and x > numbers[i - 1] and x > numbers[i + 1]]
 
 
 def find_longest_sequence(arr):

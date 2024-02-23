@@ -49,5 +49,5 @@ def fibonacci_number_index(a):
 
 print('Smallest Divisor:', str(smallest_divisor(55)))
 print('Days Needed:', str(calculate_day(10, 200)))
-print('Years Needed:', str(calculate_years(10, 10, 100)))
+print('Years Needed:', str(calculate_years(10, 11, 100)))
 print('Index:', str(fibonacci_number_index(55)))

@@ -19,33 +19,33 @@
 ## Задание 2
 1. Дано целое число, не меньшее 2. Выведите его наименьший натуральный делитель, отличный от 1.  
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/task_2.py?plain=1#L1)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/Task_2/task.py?plain=1#L1)
 
 2. В первый день спортсмен пробежал x километров, а затем он каждый день увеличивал пробег на 10% от предыдущего значения. По данному числу y определите номер дня, на который пробег спортсмена составит не менее y километров. Программа получает на вход действительные числа x и y и должна вывести одно натуральное число.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/task_2.py?plain=1#L9)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/Task_2/task.py?plain=1#L9)
 
 3. Вклад в банке составляет x рублей. Ежегодно он увеличивается на p процентов, после чего дробная часть копеек отбрасывается. Определите, через сколько лет вклад составит не менее y рублей. Выражение «дробная часть копеек отбрасывается» означает, что если у вас оказалось 123.4567 рублей, т. е. 123 рубля и 45.67 копеек, то после округления у вас получится 123 рубля и 45 копеек, т.е. 123.45 рублей. Программа получает на вход три натуральных числа: x, p, y  и должна вывести одно целое число.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/task_2.py?plain=1#L19)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/Task_2/task.py?plain=1#L19)
 
 4. Дано натуральное число A. Определите, каким по счету числом Фибоначчи оно является, то есть выведите такое число n, что φn = A. Если А не является числом Фибоначчи, выведите число -1. 
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/task_2.py?plain=1#L30)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/Task_2/task.py?plain=1#L30)
 
 ## Задание 3
 1. Дано натуральное число. Выведите его последнюю цифру. 
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/task_3.py?plain=1#L1)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/Task_3/task.py?plain=1#L1)
 
 2. Дано положительное действительное число X. Выведите его дробную часть.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/task_3.py?plain=1#L6)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/Task_3/task.py?plain=1#L6)
 
 3. Дано положительное действительное число X. Выведите его первую цифру после десятичной точки.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/task_3.py?plain=1#L11)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/Task_3/task.py?plain=1#L11)
 
 4. По российским правилам числа округляются до ближайшего целого числа, а если дробная часть числа равна 0.5, то число округляется вверх. Дано неотрицательное число x, округлите его по этим правилам. Обратите внимание, что функция round не годится для этой задачи!
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/task_3.py?plain=1#L17)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_2/Lab_2_1/Task_3/task.py?plain=1#L17)

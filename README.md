@@ -19,4 +19,4 @@
 ## Sixth-term
 🧠 Neural-Net: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/6th-Term/Neural-Net)
 
-💫 Computer-networks: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/6th-Term/Computer-networks)
+🌐 Computer-networks: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/6th-Term/Computer-networks)

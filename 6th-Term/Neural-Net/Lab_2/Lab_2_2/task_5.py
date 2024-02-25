@@ -46,7 +46,7 @@ print('Even ID Numbers: ', get_even_numbers_by_index([0, 1, 2, 3, 4, 5, 6, 7, 8,
 print('Elements Greater Previous: ', get_elements_greater_previous([1, 3, 5, 2, 4, 7, 6, 9]))
 print('Number Of Elements Greater Neighbors: ', count_elements_greater_neighbors([1, 3, 5, 2, 4, 7, 6, 9]))
 
-numbers = [1, 3, 5, 2, 4, 7, 6, 9]
+numbers = [1, 3, 5, 2, 10, 4, 7, 6, 9]
 swap_min_max(numbers)
 print('Swapped Min Max Array: ', numbers)
 

@@ -61,7 +61,8 @@ def find_max_min_elements(lst):
 def rearrange_list(lst):
     non_zeros = [x for x in lst if x != 0]
     zeros = [x for x in lst if x == 0]
-    return non_zeros + zeros
+    result = non_zeros + zeros
+    return result
 
 
 def get_positive_elements_at_even_positions(lst):

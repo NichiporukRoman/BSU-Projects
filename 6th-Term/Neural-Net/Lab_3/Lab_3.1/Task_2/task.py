@@ -16,16 +16,30 @@ def check_previous_numbers(input_string_):
 
     return results_
 
+
 # maybe it's not right
-def find_cube_colors(N, M, colors_a, colors_b):
-    colors_a = set(colors_a)  # Множество для цветов кубиков Ани
-    colors_b = set(colors_b)  # Множество для цветов кубиков Бори
+def find_cube_colors(N, M, colors_a_, colors_b_):
+    colors_a_ = set(colors_a_)  # Множество для цветов кубиков Ани
+    colors_b_ = set(colors_b_)  # Множество для цветов кубиков Бори
 
-    common_colors = sorted(colors_a & colors_b)  # Пересечение множеств colors_a и colors_b, отсортированное
-    only_colors_a = sorted(colors_a - colors_b)  # Разность множеств colors_a и colors_b, отсортированная
-    only_colors_b = sorted(colors_b - colors_a)  # Разность множеств colors_b и colors_a, отсортированная
+    common_colors_ = sorted(colors_a_ & colors_b_)  # Пересечение множеств colors_a_ и colors_b_, отсортированное
+    only_colors_a_ = sorted(colors_a_ - colors_b_)  # Разность множеств colors_a_ и colors_b_, отсортированная
+    only_colors_b_ = sorted(colors_b_ - colors_a_)  # Разность множеств colors_b_ и colors_a, отсортированная
 
-    return common_colors, only_colors_a, only_colors_b
+    return common_colors_, only_colors_a_, only_colors_b_
+
+
+def find_possible_numbers(n, questions_):
+    possible_numbers = set(range(1, n + 1))
+    for question, answer in questions_:
+        question_set = set(question)
+
+        if answer == "NO":
+            possible_numbers -= question_set
+        else:
+            possible_numbers &= question_set
+
+    return sorted(possible_numbers)
 
 
 list1 = [1, 2, 3, 4, 5]
@@ -49,10 +63,15 @@ for _ in range(M):
 result = find_cube_colors(N, M, colors_a, colors_b)
 common_colors, only_colors_a, only_colors_b = result
 
-# Выводим результаты
+
 print('Number of common cubes:', len(common_colors))
 print('Color of common cubes:', common_colors)
 print("Number of Anna's cubes:", len(only_colors_a))
 print("Color of Anna's cubes:", only_colors_a)
 print("Number of Borya's cubes:", len(only_colors_b))
 print("Color of Borya's cubes:", only_colors_b)
+
+
+questions = [([1, 2, 3], "YES"), ([4, 5, 6], "NO"), ([2, 4], "YES")]
+result = find_possible_numbers(10, questions)
+print(result)

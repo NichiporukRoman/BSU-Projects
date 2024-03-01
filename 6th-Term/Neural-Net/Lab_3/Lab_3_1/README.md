@@ -2,30 +2,30 @@
 ## Задание 1
 1.  Во второй элемент кортежа (1, [2, 3]) добавьте еще один элемент: 4. 
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_1/task.py?plain=1#L1)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_1/task.py?plain=1#L1)
 
 2. К кортежу (1, [2, 3]) добавьте список из трех элементов.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_1/task.py?plain=1#L7)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_1/task.py?plain=1#L7)
 
 
 3. К кортежу (1, [2, 3]) добавьте еще один элемент: строку.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_1/task.py?plain=1#L11)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_1/task.py?plain=1#L11)
 
 4. Во втором элементе кортежа (1, [2, 3]) повторите еще раз имеющийся список.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_1/task.py?plain=1#L15)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_1/task.py?plain=1#L15)
 
 ## Задание 2
 
 1. Даны два списка чисел. Посчитайте, сколько чисел содержится одновременно как в первом списке, так и во втором.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_2/task.py?plain=1#L1)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_2/task.py?plain=1#L1)
 
 2. Во входной строке записана последовательность чисел через пробел. Для каждого числа выведите слово YES (в отдельной строке), если это число ранее встречалось в последовательности или NO, если не встречалось.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_2/task.py?plain=1#L5)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_2/task.py?plain=1#L5)
 
 3. Аня и Боря любят играть в разноцветные кубики, причем у каждого из них свой набор и в каждом наборе все кубики различны по цвету. Однажды дети заинтересовались, сколько существуют цветов таких, что кубики каждого цвета присутствуют в обоих наборах. Для этого они занумеровали все цвета случайными числами от 0 до 108. На этом их энтузиазм иссяк, поэтому вам предлагается помочь им в оставшейся части.
 
@@ -33,7 +33,7 @@
 
 Найдите три множества: номера цветов кубиков, которые есть в обоих наборах; номера цветов кубиков, которые есть только у Ани и номера цветов кубиков, которые есть только у Бори. Для каждого из множеств выведите сначала количество элементов в нем, а затем сами элементы, отсортированные по возрастанию.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_2/task.py?plain=1#L21)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_2/task.py?plain=1#L21)
 
 4. Август и Беатриса играют в игру. Август загадал натуральное число от 1 до n. Беатриса пытается угадать это число, для этого она называет некоторые множества натуральных чисел. Август отвечает Беатрисе YES, если среди названных ей чисел есть задуманное или NO в противном случае. После нескольких заданных вопросов Беатриса запуталась в том, какие вопросы она задавала и какие ответы получила и просит вас помочь ей определить, какие числа мог задумать Август.
 
@@ -41,25 +41,25 @@
 
 Вы должны вывести через пробел, в порядке возрастания, все числа, которые мог задумать Август.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_2/task.py?plain=1#L32)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_2/task.py?plain=1#L32)
 ## Задание 3
 
 1. В единственной строке записан текст. Для каждого слова из данного текста подсчитайте, сколько раз оно встречалось в этом тексте ранее.
 
 Словом считается последовательность непробельных символов идущих подряд, слова разделены одним или большим числом пробелов или символами конца строки.  
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_3/task.py?plain=1#L1)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_3/task.py?plain=1#L1)
 
 2. Вам дан словарь, состоящий из пар слов. Каждое слово является синонимом к парному ему слову. Все слова в словаре различны.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_3/task.py?plain=1#L14)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_3/task.py?plain=1#L14)
 
 Для слова из словаря, записанного в последней строке, определите его синоним.
 
 3. Дан текст: в первой строке задано число строк, далее идут сами строки. Выведите слово, которое в этом тексте встречается чаще всего. Если таких слов несколько, выведите то, которое меньше в лексикографическом порядке.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_3/task.py?plain=1#L26)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_3/task.py?plain=1#L26)
 
 4. Дан текст: в первой строке записано количество строк в тексте, а затем сами строки. Выведите все слова, встречающиеся в тексте, по одному на каждую строку. Слова должны быть отсортированы по убыванию их количества появления в тексте, а при одинаковой частоте появления — в лексикографическом порядке.
 
-Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3.1/Task_3/task.py?plain=1#33)
+Решение: [Смотреть здесь](https://github.com/NiCHUY/BSU-Projects/blob/main/6th-Term/Neural-Net/Lab_3/Lab_3_1/Task_3/task.py?plain=1#33)

@@ -24,3 +24,5 @@
 🌐 Computer-networks: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/6th-Term/Computer-networks)
 
 🤖 Robotics: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/6th-Term/Robotics)
+
+🅾️2 Numerical-Methods-Part-2: [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/6th-Term/Numerical-Methods-Part-2)

@@ -10,4 +10,4 @@
 
 Результат вывести с заданным количеством цифр после запятой.
 
-![task](https://github.com/NiCHUY/BSU-Projects/assets/89972933/29a25379-85be-4cc2-a2bd-532ce7645e00)
+$$sh x = \frac{e^{x}-e^{-x}}{2}=x+\frac{x^3}{3!}+\frac{x^5}{5!}+...;\quad where\quad x \in (-\infty,+\infty)$$

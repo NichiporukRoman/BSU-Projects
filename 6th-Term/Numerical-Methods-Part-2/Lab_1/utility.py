@@ -11,11 +11,11 @@ degrees = [2, 4, 8, 16]
 
 
 def f1(x):
-    return math.cos(x);
+    return math.cos(x)
 
 
 def d2f1(x):
-    return -math.cos(x);
+    return -math.cos(x)
 
 
 def f2(x):

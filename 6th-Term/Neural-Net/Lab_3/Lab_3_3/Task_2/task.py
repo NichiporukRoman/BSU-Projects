@@ -1,6 +1,5 @@
 import math
 import random
-import matematic_module as mat
 
 
 def log_base_2(number):
@@ -8,19 +7,20 @@ def log_base_2(number):
 
 
 def generate_uniform_number():
+    random.seed(45)
     return random.uniform(0, 1)
 
 
 # next is cringe
 def generate_same_numbers():
-    random_number = generate_uniform_number()
-
     for _ in range(4):
-        print(random_number)
+        print(generate_uniform_number())
 
 
-# task 3 wtf is it
+def module_name(name):
+    return dir(name)
 
 
-generate_same_numbers()
-print(mat.log_base_a(10000, 10))
+print('Log base 2:', log_base_2(32))
+print('Generate same numbers:'), generate_same_numbers()
+print(module_name('matematic_module'))

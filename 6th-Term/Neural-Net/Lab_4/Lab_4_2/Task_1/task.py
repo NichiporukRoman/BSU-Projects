@@ -10,16 +10,17 @@ y = np.array([], dtype=float)
 for i in range(len(data) - 4):
     array_to_append = np.array(data[i: i + 4], dtype=float)
     X = np.append(X, [array_to_append], axis=0)
-    y = np.append(y, utilities.nonlin(data[i + 4]))
+    y = np.append(y, data[i + 4])
+
 y = y.reshape((len(X), 1))
 
 np.random.seed(1)
 
-syn0 = 2 * np.random.random((4, 12)) - 1
-syn1 = 2 * np.random.random((12, 4)) - 1
+syn0 = 2 * np.random.random((4, 2)) - 1
+syn1 = 2 * np.random.random((2, 4)) - 1
 syn2 = 2 * np.random.random((4, 1)) - 1
 
-for iter in range(60000):
+for iter in range(6000):
     l0 = X
     l1 = utilities.nonlin(np.dot(l0, syn0))
     l2 = utilities.nonlin(np.dot(l1, syn1))
@@ -48,4 +49,4 @@ l33 = np.dot(l2, syn2)
 l3 = utilities.nonlin(l33)
 
 print('Prognosis: ', utilities.inverse_nonlin(l3))
-print("Error:", utilities.nonlin(1.9548) - l3)
+print("Error:", (utilities.nonlin(1.9548) - l3))

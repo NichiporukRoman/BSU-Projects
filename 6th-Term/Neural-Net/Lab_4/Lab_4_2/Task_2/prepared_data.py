@@ -1,9 +1,9 @@
 import numpy as np
 from Lab_4.Lab_4_2.Task_2 import normalization
+from Lab_4.Lab_4_2 import utilities
 
-
-data_task_1 = [1.9585, 1.9585, 1.9585, 1.9666, 1.9707, 1.9653, 1.9538, 1.9538, 1.9538, 1.9597, 1.9640, 1.9697, 1.9542,
-               1.9509, 1.9509, 1.9509]
+data_task_1 = utilities.nonlin(np.array([1.9585, 1.9585, 1.9585, 1.9666, 1.9707, 1.9653, 1.9538, 1.9538, 1.9538, 1.9597, 1.9640, 1.9697, 1.9542,
+               1.9509, 1.9509, 1.9509]))
 
 
 data_cars_input_for_learning = np.array([[normalization.mass_normalization(0.645), normalization.power_normalization(33), normalization.passengers_normalization(4), normalization.lifting_capacity_normalization(0.34)],

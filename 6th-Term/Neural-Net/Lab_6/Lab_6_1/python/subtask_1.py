@@ -25,3 +25,10 @@ model.fit(X_train, Y_train, validation_data=(X_test, Y_test), epochs=50, batch_s
 
 scores = model.evaluate(X_test, Y_test, verbose=0)
 print("Точность работы на тестовых данных: %.2f%%" % (scores[1]*100))
+
+
+model_json = model.to_json()
+json_file = open("/Lab_6/Lab_6_1/models/mine/mnist_model.json", "w")
+json_file.write(model_json)
+json_file.close()
+model.save_weights("D:/BSU-Projects/6th-Term/Neural-Net/Lab_6/Lab_6_1/models/mnist_model.h5")

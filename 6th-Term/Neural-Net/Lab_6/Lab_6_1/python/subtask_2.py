@@ -10,7 +10,7 @@ json_file.close()
 
 loaded_model = model_from_json(loaded_model_json)
 
-loaded_model.load_weights("D:/BSU-Projects/6th-Term/Neural-Net/Lab_6/Lab_6_1/models/mnist_model.h5")
+loaded_model.load_weights("D:/BSU-Projects/6th-Term/Neural-Net/Lab_6/Lab_6_1/models/mine/mnist_model.h5")
 loaded_model.compile(loss="categorical_crossentropy", optimizer="SGD", metrics=["accuracy"])
 scores = loaded_model.evaluate(X_test, Y_test, verbose=0)
 

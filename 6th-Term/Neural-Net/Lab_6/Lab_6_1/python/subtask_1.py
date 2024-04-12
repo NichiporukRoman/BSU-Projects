@@ -28,7 +28,7 @@ print("Точность работы на тестовых данных: %.2f%%"
 
 
 model_json = model.to_json()
-json_file = open("/Lab_6/Lab_6_1/models/mine/mnist_model.json", "w")
+json_file = open("D:/BSU-Projects/6th-Term/Neural-Net/Lab_6/Lab_6_1/models/mine/mnist_model.json", "w")
 json_file.write(model_json)
 json_file.close()
 model.save_weights("D:/BSU-Projects/6th-Term/Neural-Net/Lab_6/Lab_6_1/models/mnist_model.h5")

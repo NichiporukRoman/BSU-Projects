@@ -20,7 +20,7 @@ X_test /= 255
 Y_train = np_utils.to_categorical(y_train, 10)
 Y_test = np_utils.to_categorical(y_test, 10)
 
-
+initializer = Glo
 model = Sequential()
 model.add(Dense(800, input_dim=784, activation="relu", kernel_initializer="normal"))
 model.add(Dense(10, activation="softmax", kernel_initializer="normal"))

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz: Who Are You?</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 180vh;
+        background-color: #f3f3f3;
+    }
+    form {
+        text-align: left;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    input[type="radio"], input[type="submit"] {
+        margin: 5px 0;
+    }
+    input[type="submit"] {
+        text-align: center;
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    .result {
+        margin-top: 20px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <form id="quizForm">
+        <h2>Quiz: What is your position in football?</h2>
+
+        <h3>Question 1: Do you like to attack?</h3>
+        <input type="radio" id="q1_option1" name="q1" value="yes">
+        <label for="q1_option1">Yes</label><br>
+
+        <input type="radio" id="q1_option2" name="q1" value="no">
+        <label for="q1_option2">No</label><br>
+
+        <h3>Question 2: Do you like to defend?</h3>
+        <input type="radio" id="q2_option1" name="q2" value="yes">
+        <label for="q2_option1">Yes</label><br>
+
+        <input type="radio" id="q2_option2" name="q2" value="no">
+        <label for="q2_option2">No</label><br>
+
+        <h3>Question 3: What is level of your dribble?</h3>
+        <input type="radio" id="q3_option1" name="q3" value="2">
+        <label for="q3_option1">I can dribble very well</label><br>
+
+        <input type="radio" id="q3_option2" name="q3" value="1">
+        <label for="q3_option2">My dribbling is ok</label><br>
+
+        <input type="radio" id="q3_option4" name="q3" value="0">
+        <label for="q3_option4">I can't dribble at all</label><br>
+
+        <h3>Question 4: Do you like to dribble?</h3>
+        <input type="radio" id="q4_option1" name="q4" value="yes">
+        <label for="q4_option1">Yes</label><br>
+
+        <input type="radio" id="q4_option2" name="q4" value="no">
+        <label for="q4_option2">No</label><br>
+
+        <h3>Question 5: What is level of your passing?</h3>
+        <input type="radio" id="q5_option1" name="q5" value="2">
+        <label for="q5_option1">I can pass very well</label><br>
+
+        <input type="radio" id="q5_option2" name="q5" value="1">
+        <label for="q5_option2">My passing is ok</label><br>
+
+        <input type="radio" id="q5_option3" name="q5" value="0">
+        <label for="q5_option3">I'm bad at passing</label><br>
+
+        <h3>Question 6: Are you strong?</h3>
+        <input type="radio" id="q6_option1" name="q6" value="yes">
+        <label for="q6_option1">Yes</label><br>
+
+        <input type="radio" id="q6_option2" name="q6" value="no">
+        <label for="q6_option2">No</label><br>
+
+        <h3>Question 7: Are you fast?</h3>
+        <input type="radio" id="q7_option1" name="q7" value="yes">
+        <label for="q7_option1">Yes</label><br>
+
+        <input type="radio" id="q7_option2" name="q7" value="no">
+        <label for="q7_option2">No</label><br>
+
+        <h3>Question 8: Are you tall?</h3>
+        <input type="radio" id="q8_option1" name="q8" value="yes">
+        <label for="q8_option1">Yes</label><br>
+
+        <input type="radio" id="q8_option2" name="q8" value="no">
+        <label for="q8_option2">No</label><br>
+
+        <h3>Question 9: What is level of your stamina?</h3>
+        <input type="radio" id="q9_option1" name="q9" value="yes">
+        <label for="q9_option1">I can work for two</label><br>
+
+        <input type="radio" id="q9_option2" name="q9" value="no">
+        <label for="q9_option2">It's ok</label><br>
+
+        <input type="radio" id="q9_option3" name="q9" value="no">
+        <label for="q9_option3">it's not big enough</label><br>
+
+        <h3>Question 10: What is level of your football vision?</h3>
+        <input type="radio" id="q10_option1" name="q10" value="2">
+        <label for="q10_option1">I can see everything on the field</label><br>
+
+        <input type="radio" id="q10_option2" name="q10" value="1">
+        <label for="q10_option2">I can see part of the field</label><br>
+
+        <input type="radio" id="q10_option4" name="q10" value="0">
+        <label for="q10_option4">I don't understand what is happening on the field</label><br>
+
+        <h3>Question 11: What is level of your reaction?</h3>
+        <input type="radio" id="q11_option1" name="q11" value="2">
+        <label for="q11_option1">It's sharp</label><br>
+
+        <input type="radio" id="q11_option2" name="q11" value="1">
+        <label for="q11_option2">It's ok</label><br>
+
+        <input type="radio" id="q11_option4" name="q11" value="0">
+        <label for="q11_option4">I have problem in it</label><br>
+
+        <h3>Question 12: Are you good at caching balls?</h3>
+        <input type="radio" id="q12_option1" name="q12" value="yes">
+        <label for="q12_option1">Yes</label><br>
+
+        <input type="radio" id="q12_option2" name="q12" value="no">
+        <label for="q12_option2">No</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div class="result" id="resultSection" style="display: none;">
+        <form>
+            <h2>Your Results:</h2>
+            <p id="resultMessage"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

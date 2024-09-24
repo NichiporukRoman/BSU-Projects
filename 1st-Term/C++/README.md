@@ -1,10 +1,10 @@
 # C-plus-plus-Labs
-My C++ labs from the first semester of study at BSU: <br>
-- Compute with precision(lab-1): [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-1)<br>
-- Arrays(lab-2): [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-2)<br>
-- Matrix(lab-3): [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-3)<br>
-- Strings and text files(lab-4): [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-4)<br>
-- Text files(lab-5): [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-5)<br>
-- Simplest class(lab-6): [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-6)<br>
-- Inheritance(lab-7): [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-7)<br>
-- Calculator(lab-8): [see-here](https://github.com/NiCHUY/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-8)<br>
+### [Lab-1 | approximate value of a function](https://github.com/NichiporukRoman/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-1)
+### [Lab-2 | one-dimensional array (numeric sequences)](https://github.com/NichiporukRoman/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-2)
+### [Lab-3 | two-dimensional array](https://github.com/NichiporukRoman/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-3)
+### [Lab-4 | strings, pointers, character arrays](https://github.com/NichiporukRoman/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-4)
+### [Lab-5 | text files](https://github.com/NichiporukRoman/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-5)
+### [Lab-6 | simplest class](https://github.com/NichiporukRoman/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-6)
+### [Lab-7 | inheritance](https://github.com/NichiporukRoman/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-7)
+### [Lab-8 | calculator](https://github.com/NichiporukRoman/BSU-Projects/tree/main/1st-Term/C%2B%2B/Lab-8)
+

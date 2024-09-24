@@ -1,0 +1,10 @@
+Goal:role
+
+
+Question for: Do you like to save goals
+Question for: Do you like to defend?
+Question for: Do you like to attack?
+The answer could not be found
+
+Result: The answer could not be found
+

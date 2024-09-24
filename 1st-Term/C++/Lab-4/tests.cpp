@@ -1,6 +1,6 @@
 #include <vector>
 #include "gtest/gtest.h"
-#include "../LABA4.cpp"
+#include "../solution.cpp"
 
 TEST(HasInVector, Sample) {
     vector<char> v = {1, 5, 3, 999, 5};
